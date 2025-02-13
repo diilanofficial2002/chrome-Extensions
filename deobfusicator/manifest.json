@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Code Deobfuscator",
+    "version": "1.0",
+    "description": "Deobfuscates JavaScript and PHP code on webpages",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+      "default_title": "Deobfuscate Code"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
