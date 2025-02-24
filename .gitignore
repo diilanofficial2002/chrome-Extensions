@@ -1,0 +1,7 @@
+# Virtual environment
+.exenv/
+.env/
+
+# Unnecessary filed
+test/
+spam-detector/src/model
